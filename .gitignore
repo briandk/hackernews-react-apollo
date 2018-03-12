@@ -22,3 +22,7 @@ yarn-error.log*
 
 # IntelliJ
 .idea
+
+# Node
+server/node_modules
+.idea/workspace.xml

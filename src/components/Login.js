@@ -76,7 +76,7 @@ class Login extends Component {
       const { token } = result.data.signup;
       this._saveUserData(token);
     }
-    this.props.history.push("/");
+    this.props.history.push(`/`);
   };
 
   _saveUserData = token => {
@@ -103,4 +103,4 @@ const LOGIN_MUTATION = gql`
 export default compose(
   graphql(SIGNUP_MUTATION, { name: "signupMutation" }),
   graphql(LOGIN_MUTATION, { name: "loginMutation" })
-);
+)(Login);

@@ -20,6 +20,7 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "prettier": "^1.11.1"
+    "prettier": "^1.11.1",
+    "tslint": "^5.9.1"
   }
 }
